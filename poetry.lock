@@ -1,0 +1,33 @@
+[[package]]
+name = "polars"
+version = "0.14.25"
+description = "Blazingly fast DataFrame library"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+all = ["polars[connectorx,fsspec,matplotlib,numpy,pandas,pyarrow,timezone,xlsx2csv]"]
+connectorx = ["connectorx"]
+fsspec = ["fsspec"]
+matplotlib = ["matplotlib"]
+numpy = ["numpy (>=1.16.0)"]
+pandas = ["pandas", "pyarrow (>=4.0.0)"]
+pyarrow = ["pyarrow (>=4.0.0)"]
+timezone = ["backports.zoneinfo", "tzdata"]
+xlsx2csv = ["xlsx2csv (>=0.8.0)"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "2e6793ff30d1d65924e084aa5e134297427345dfd8e268e2d2a9309d6bd3203b"
+
+[metadata.files]
+polars = [
+    {file = "polars-0.14.25-cp37-abi3-macosx_10_7_x86_64.whl", hash = "sha256:751f9f6cdd284f0907a5a5607604b0431312bb24bb0299d420c364a6c54ee33a"},
+    {file = "polars-0.14.25-cp37-abi3-macosx_11_0_arm64.whl", hash = "sha256:2c1dfdaf9e7445eac4dcf4ca4d4484cfe98855642d08824a72f99063f394813f"},
+    {file = "polars-0.14.25-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:484b37dbfa0b5d72f53c35dfcf53919c2eb4dcca2ff47f652a53045744ebb861"},
+    {file = "polars-0.14.25-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:37033c7f56972acc5f57d189165b34e1d3622f0865808d75439236c99340bff9"},
+    {file = "polars-0.14.25-cp37-abi3-win_amd64.whl", hash = "sha256:d78869c3921abe6afd51d3054c24b04685dbd383d46719cbdff26d9699e082f6"},
+    {file = "polars-0.14.25.tar.gz", hash = "sha256:4cef894ee47e8e858a813492da48a143995a1459cb3ff87969d2d9424c36f62e"},
+]
